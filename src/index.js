@@ -1,4 +1,4 @@
-import Yup from 'yup'
+import * as Yup from 'yup'
 
 export const firstNameField = Yup.string()
   .required('First name is required.')
