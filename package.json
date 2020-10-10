@@ -1,0 +1,27 @@
+{
+  "name": "heimdall",
+  "version": "0.0.0",
+  "description": "Heimdall is the ultimate gatekeeper built with Yup.",
+  "source": "src/index.js",
+  "main": "dist/heimdall.js",
+  "module": "dist/heimdall.module.js",
+  "unpkg": "dist/heimdall.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "develop": "microbundle watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.12.4",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "yup": "^0.29.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  }
+}
